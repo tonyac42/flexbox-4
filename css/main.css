@@ -111,6 +111,8 @@ body {
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,6 +122,10 @@ body {
   font-size: 1.6em;
   background-color: #f16059;
   height: 300px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
